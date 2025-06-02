@@ -8,7 +8,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "deploy": "next build && touch out/.nojekyll && git add out/ && git commit -m \"Deploy\" && git subtree push --prefix out origin main"
+    "deploy": "next build && touch out/.nojekyll && git add out/ && git commit -m \"Deploy\" && git subtree push --prefix out origin main",
+    "update-deploy": "npm run build && cp -r out/* . && git add . && git commit -m \"Update website\" && git push origin main"
   },
   "dependencies": {
     "@heroicons/react": "^2.2.0",

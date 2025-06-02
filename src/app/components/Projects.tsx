@@ -31,6 +31,12 @@ const sandboxProjects = [
     codesandbox: 'https://vxg8ms.csb.app/',
     tags: ['React'],
   },
+  {
+    title: 'Star Rating',
+    description: 'A simple star rating component built with React',
+    codesandbox: 'https://ts9x68.csb.app/',
+    tags: ['React'],
+  },
   // Add more CodeSandbox projects here
 ];
 
